@@ -7,6 +7,18 @@
  <title>Conall Dooley Final Project</title>
 
 <style>
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 37px;
+}
+
+p {
+  font-size: 22px;
+}
+
 body {
   background-color: lightblue;
 }
@@ -73,8 +85,12 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+ul li a:hover:not(.active) {
   background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #04AA6D;
 }
 
 </style>
