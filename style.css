@@ -6,6 +6,7 @@ p {
   text-align: center;
 }
 h1 {
+  margin-top: 20px;
   font-size: 42px;
 }
 
@@ -19,7 +20,11 @@ p {
 
 body {
   background-color: #FFFFFF;
+  color: lightblur;
+  max-width: 900px;
+  margin: auto;
 }
+
  div {
   border: 1px solid black;
   margin-top: 100px;
@@ -28,9 +33,7 @@ body {
   margin-left: 80px;
   background-color: #FFFFFF;
 }
- body {
-  color: lightblur;
-}
+
 
 h1 {
   color: black;
@@ -54,10 +57,7 @@ h3 {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
+
 
 h2, p {
   margin: 10px;
